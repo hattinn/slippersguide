@@ -1,9 +1,42 @@
 @charset "utf-8";
+* {
+    max-width: 100%;
+}
+header {
+    text-align: center;
+}
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
 
+h1 {
+    display: inline-block;
+    /* background-color: #ccc; */
+    color: #00bbdd;
+    border-bottom: 2px solid #00bbddfc;
+    text-shadow:  2px 3px 1px rgb(204 149 26 / 70%);
+}
+.link-area {
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(232 188 147 / 56%);
+}
+ul {
+    list-style-type: none;
+}
 li {
-    margin: 5px 10px;
+    margin: 10px 0 15px;
+    
 }
 
 a {
     text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #00bbdd;
 }
