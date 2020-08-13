@@ -6,9 +6,10 @@ header {
     text-align: center;
 }
 img {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
+    display: inline-block;
+    width: 100px;
+    border: 1px solid #000;
+    /* margin: 0 auto; */
 }
 
 h1 {
@@ -19,11 +20,14 @@ h1 {
     text-shadow:  2px 3px 1px rgb(204 149 26 / 70%);
 }
 .link-area {
-    /* width: 100vw; */
-    display: flex;
+    display: flex;          /* 以下3行でリストを画面中央で左寄せ */
     align-items: center;
     flex-direction: column;
     background-color: rgb(232 188 147 / 56%);
+
+    /* background: url(images/kinnpatu1-min.jpg)
+    ;
+    background-size: contain; */
 }
 ul {
     list-style-type: none;
