@@ -16,6 +16,7 @@ h1 {
     align-items: center;
     flex-direction: column;
     margin-bottom: 1px;
+    text-arign: left;
 }
 ul {
     list-style-type: none;
